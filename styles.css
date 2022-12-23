@@ -1,0 +1,97 @@
+.board {
+    width: 650px;
+    height: 650px;
+    display: grid;
+    border: 8px solid beige;
+    margin-bottom: 20px;
+}
+
+.content {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #85144b;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+#input {
+    display: flex;
+    justify-content: center;
+}
+
+.square {
+    border: 1px black;
+}
+
+body{
+    background: linear-gradient(to left,#E58C8A, #EEC0C5);
+}
+
+button {
+    background-color: #ffa8B6;
+    border: solid;
+    border-color: beige;
+    padding: 15px 30px;
+    text-align: center;
+    display: flex;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 25px;
+}
+
+#black {
+    color:black;
+}
+
+#red {
+    color:red;
+}
+
+#rainbow {
+    background-image: linear-gradient(to left,red,indigo, blue,green, yellow);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-color: #ffa8B6;
+}
+
+#white {
+    color: white;
+}
+
+#reset {
+    color: #696969
+}
+
+.input {
+    color:black;
+    background-color: beige;
+    border-color: beige;
+    width: 55px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    font-size: large;
+    border-radius: 10px;
+}
+
+button:hover {
+    cursor:pointer;
+}
+
+.size {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
